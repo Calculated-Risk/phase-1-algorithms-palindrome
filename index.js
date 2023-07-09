@@ -19,10 +19,10 @@ function isPalindrome(word) {
   //compare the new reversed array string from the original word
   if(closeUpArray === word){
     console.log('true')
-    return "true"
+    return true
   }else{
     console.log('false')
-    return "false"
+    return false
   }
 }
 
